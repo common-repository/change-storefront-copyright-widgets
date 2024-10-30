@@ -1,0 +1,56 @@
+.footer-widgets.scc-sidebar-widgets {
+	border-bottom: 0;
+}
+.scc-sidebar-widgets p {
+	margin: 0.5em 0;
+	font-size: 0.9em;
+}
+.scc-sidebar-empty {
+	border:dashed 2px #007cba;
+	padding: 8px 15px;
+}
+/* Horizontal menu */
+.scc-sidebar-menu-inline .widget_nav_menu ul li::after {
+	content: '|';
+	margin: 0 5px;
+}
+.scc-sidebar-menu-inline .widget_nav_menu ul li:last-child::after,
+.scc-sidebar-menu-inline .widget_nav_menu ul li::before {
+	display: none;
+}
+.scc-sidebar-menu-inline .widget_nav_menu ul li {
+	display: inline;
+	padding: 0;
+	font-size: 0.8em;
+}
+.scc-sidebar-menu-inline .widget_nav_menu ul li {
+	margin: 0.5em 0;
+}
+
+/* Alignment */
+.scc-sidebar-align-left {
+	text-align: left;
+}
+.scc-sidebar-align-left img {
+	margin-right: auto;
+}
+.scc-sidebar-align-center {
+	text-align: center;
+}
+.scc-sidebar-align-center img {
+	margin-left: auto;
+	margin-right: auto;
+}
+.scc-sidebar-align-right {
+	text-align: right;
+}
+.scc-sidebar-align-right {
+	margin-right: auto;
+}
+.scc-sidebar-rtl-advice {
+	display: none;
+}
+body.rtl .scc-sidebar-rtl-advice {
+	display: inline;
+	color: #007cba;
+}
